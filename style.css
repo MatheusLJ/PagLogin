@@ -1,0 +1,187 @@
+/* Paleta de cores
+Laranja
+HEX - #f68b1f
+RGB (246,139,31) 
+
+Preto(azulado)
+RGB - (7,7,17)
+
+Input
+RGB (219,216,216)
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+@font-face {
+    font-family: GeomatrixLight;
+    src: url(fonts/Geomatrix\ Light.otf);
+}
+
+@font-face {
+    font-family: GeomatrixBold;
+    src: url(fonts/Geomatrix\ Bold.otf);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100px;
+    box-shadow: 0.5px 0.5px 3px black;
+}
+
+li{
+    display: inline-block;
+    margin: 35px;
+    font-family: GeomatrixBold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+}
+
+a:hover{
+    color: #f68b1f;
+}
+
+#title img{
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 35px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#left-div{
+    width: 45%;
+    height: 600px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#text1{
+    color: #f68b1f;
+    font-family: GeomatrixLight;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+#text2{
+    color: black;
+    font-family: GeomatrixLight;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+#left-div img{
+    max-width: 450px;
+    max-height: 450px; 
+    margin-right: 80px;
+}
+
+#right-div{
+    width: 45%;
+    height: 600px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card-login{
+    width: 70%;
+    height: 90%;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 5px black; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;  
+}
+
+#text-field{
+    margin-top: 20px;
+}
+
+#text-field h1{
+    color: #f68b1f;
+    font-family: GeomatrixBold;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#input-1{
+    width: 350px;
+    height: 45px;
+    margin-top: 80px;
+    border-radius: 7px;
+    background-color: rgb(219, 216, 216);
+    border: none;
+   
+}
+
+#input-2{
+    margin-top: 30px;
+    width: 350px;
+    height: 45px;
+    border-radius: 7px;
+    background-color: rgb(219, 216, 216);
+    border: none;
+}
+
+#div-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+button{
+    background-color: #f68b1f;
+    color: white;
+    width: 250px;
+    height: 35px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    font-family: GeomatrixBold;
+    letter-spacing: 4px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover{
+    transform: translateY(-5px);
+}
+
+#icones img{
+    max-width: 30px;
+    max-height: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+#icones img:hover{
+    transform: translateY(-5px);
+}
+
+
+
